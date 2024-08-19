@@ -1,0 +1,42 @@
+Aula 3:
+
+Função invkinDD cinemática inversa!
+
+criar função:
+1º obter omega
+    w = th/t
+2º para X ou para Y 
+    V = X*w/sin(th)
+    V = Y*w/(1-cos(th))
+3º VR = ....w V
+   VL = ....w V
+
+
+Testar com cinemática direta
+
+Desenhar robos, ver aula 2
+
+Tomar atencao a ordem Wl e do Wr, com o -1/L e o 1/L
+
+--------------------------------------------------------------
+
+Função invkinDDxy():
+
+Deslocar de um ponto para um ponto, ou alterar orientacao
+Se X==0 e Y==0 então muda orientacao de acordo com next target
+Se X e Y~=0  então desloca-se para next target
+
+1º [Vr,Vl] = invkinDDxy(0,0,L,t,5,4)
+2º [Vr,Vl] = invkinDDxy(5,4,L,t,0,0)
+
+
+
+
+
+
+
+
+
+
+
+

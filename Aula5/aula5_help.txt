@@ -1,0 +1,31 @@
+Aula 5 (17 Mar):
+
+Teorica: Sistemas de triangulacao e GPS
+
+Pratica:
+
+Ex.1:
+
+v = 2 m/s
+w = 0
+dt = 0.2s
+T = 5s
+
+funcao getbdir(B,P,theta) - simulador do sensor de direcao
+
+1.c - 
+
+%Guardar e visualizar os pontos estimados
+%Estimated (x1,y1) using L2 and bheta
+%O P1 foi calculado através de previsao, agora com L2 calcular o ponto real
+%Calcula-se outra vez o ponto, devido ao bheta poder ter erro
+
+IMP - Ver notas caderno para perceber como delta = theta - bheta
+
+
+1.d - 
+
+L2-real/real
+  
+Erro relativo da distancia calculada:  
+abs(L2-norm(B-P(:,n)))/norm(B-P(:,n) 

@@ -1,0 +1,62 @@
+Aula 4 (10 Mar):
+
+Localizacao e Odometria (teorica)
+
+Pratica:
+
+Ex.1 :  Odomoteria - Robo que se vai descolar, e medir como se desloca
+		- rodas do robo teem encoders locais. Ler os encoders, e fazer a conta da deslocacao atraves das leituras.
+		- ciclo for, fazer array por cada turno!
+		- gear ratio e desmultiplicacao entre a roda e o encoder. Relacao de raios da roda com encoder.
+		- gear ratio (n) = 1, porque o acoplamento e direto.
+
+		- NL e NR - medida dos encoders, sao as medidas presentadas pelo professor.
+		- o NR e a diferenca entre a leitura inicial e final.
+		- D -> wheel separation
+		
+Exemplo alinea b) - Se a leitura for feita ao dobro da velocidade? --> dobro velocida equivale a menos pulsos, neste caso pulsos/2; admitindo velocidade constante.
+	
+		
+Ex.2 : 
+
+Expressoes triciclo:
+
+	delta_li = Vi*delta_t;
+	delta_li = k*Ns;
+	
+	Como delta_li = Vi*delta_t, então na expressao do xi e yi --> delta_li substitui Vi*dt;
+	
+Ex 3: 
+
+Smartphone:
+
+                    Device: 'David's A12'
+                   Connected: 1
+                     Logging: 1
+            AvailableCameras: {'back' 'front'}
+        AvailableMicrophones: {'SM-A127F-back' 'SM-A127F-bottom'}
+          SelectedMicrophone: 'SM-A127F-back'
+                  Microphone: [1x1 Microphone]
+            InitialTimestamp: '10-Mar-2023 12:36:35.462'
+
+                  SampleRate: 10 Hz
+   AccelerationSensorEnabled: 1    (1983 Logged values)
+AngularVelocitySensorEnabled: 0
+       MagneticSensorEnabled: 0
+    OrientationSensorEnabled: 0
+       PositionSensorEnabled: 1    (1 Logged values)
+           MicrophoneEnabled: 0
+
+Current Sensor Values:
+                Acceleration: [-0.5746 -0.0192 9.7109] (m/s^2)
+             AngularVelocity: [0x3 double]
+               MagneticField: [0x3 double]
+                 Orientation: [0x3 double]
+
+         Position Data:
+                    Latitude: 40.629864 (degrees)
+                   Longitude: -8.657937 (degrees)
+                       Speed: 0.0000 (m/s)
+                      Course: 0.0000 (degrees)
+                    Altitude: 70.9000 (m)
+          HorizontalAccuracy: 15.2110 (m)
